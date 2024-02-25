@@ -1,0 +1,14 @@
+# Realice un programa que calcule X números aleatorios en un rango determinado por el usuario.
+
+from random import *
+print("Mostrar números aleatorios en un rango determinado por el usuario")
+
+print('\n Ingrese los números que quiera ver en el rango \n')
+
+Inicio = int(input(" desde: "))
+
+Fin = int(input("hasta...: "))
+
+aleatorio = [randint(Inicio, Fin) for i in range (1, Fin)]
+
+print(aleatorio)
